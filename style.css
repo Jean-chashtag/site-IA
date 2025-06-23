@@ -1,0 +1,108 @@
+
+body {
+    background-color: #05192A;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #7cc2ff;
+}
+
+
+.header {
+    background-color: #04233f;
+    padding: 20px 0 10px 0;
+    text-align: center;
+    border-bottom: 1px solid #063a54;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.logo-img {
+    width: 80px;
+    height: auto;
+}
+
+.logo-text {
+    color: #1190ff;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+/* Navegação */
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: #063a54;
+    padding: 10px 0;
+}
+
+.nav a {
+    color: #7cc2ff;
+    text-decoration: none;
+    margin: 0 30px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Conteúdo Principal */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Seções */
+.section-card {
+    background-color: #061f35;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 80%;
+    text-align: center;
+    color: #1bc1f1;
+}
+
+.section-card img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+/* Call To Action */
+.cta-section {
+    background-color: #082946;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.cta-section .btn {
+    display: inline-block;
+    background-color: #0080e9;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.cta-section .btn:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Rodapé */
+.footer {
+    background-color: #011c30;
+    padding: 10px;
+    text-align: center;
+    color: gray;
+    font-size: 14px;
+}
